@@ -1,0 +1,174 @@
+soong_namespace {
+}
+
+android_app_import {
+	name: "CarrierSetup",
+	apk: "system/priv-app/CarrierSetup/CarrierSetup.apk",
+	privileged: true,
+    presigned: true,
+}
+
+android_app_import {
+	name: "AndroidAutoPrebuiltStub",
+	apk: "system/priv-app/AndroidAutoPrebuiltStub/AndroidAutoPrebuiltStub.apk",
+	privileged: true,
+    presigned: true,
+}
+
+android_app_import {
+	name: "AndroidMigratePrebuilt",
+	apk: "system/priv-app/AndroidMigratePrebuilt/AndroidMigratePrebuilt.apk",
+	privileged: true,
+    presigned: true,
+}
+
+
+android_app_import {
+	name: "ConfigUpdater",
+	apk: "system/priv-app/ConfigUpdater/ConfigUpdater.apk",
+	privileged: true,
+    presigned: true,
+}
+
+
+android_app_import {
+	name: "GoogleBackupTransport",
+	apk: "system/priv-app/GoogleBackupTransport/GoogleBackupTransport.apk",
+	privileged: true,
+    presigned: true,
+}
+
+
+android_app_import {
+	name: "GoogleExtServices",
+	apk: "system/priv-app/GoogleExtServices/GoogleExtServices.apk",
+	privileged: true,
+    presigned: true,
+}
+
+android_app_import {
+	name: "GoogleFeedback",
+	apk: "system/priv-app/GoogleFeedback/GoogleFeedback.apk",
+	privileged: true,
+    presigned: true,
+}
+
+android_app_import {
+	name: "GoogleOneTimeInitializer",
+	apk: "system/priv-app/GoogleOneTimeInitializer/GoogleOneTimeInitializer.apk",
+	privileged: true,
+    presigned: true,
+    overrides: ["OneTimeInitializer"],
+}
+
+android_app_import {
+	name: "GooglePartnerSetup",
+	apk: "system/priv-app/GooglePartnerSetup/GooglePartnerSetup.apk",
+	privileged: true,
+    presigned: true,
+}
+
+
+android_app_import {
+	name: "GoogleRestore",
+	apk: "system/priv-app/GoogleRestore/GoogleRestore.apk",
+	privileged: true,
+    presigned: true,
+}
+
+
+android_app_import {
+	name: "GoogleServicesFramework",
+	apk: "system/priv-app/GoogleServicesFramework/GoogleServicesFramework.apk",
+	privileged: true,
+    presigned: true,
+}
+
+
+android_app_import {
+	name: "Phonesky",
+	apk: "system/priv-app/Phonesky/Phonesky.apk",
+	privileged: true,
+    presigned: true,
+}
+
+android_app_import {
+	name: "PrebuiltGmsCore",
+	apk: "system/priv-app/PrebuiltGmsCore/PrebuiltGmsCore.apk",
+	privileged: true,
+    presigned: true,
+}
+
+android_app_import {
+	name: "SetupWizard",
+	apk: "system/priv-app/SetupWizard/SetupWizard.apk",
+	privileged: true,
+    presigned: true,
+    overrides: ["Provision"],
+}
+
+android_app_import {
+	name: "Turbo",
+	apk: "system/priv-app/Turbo/Turbo.apk",
+	privileged: true,
+    presigned: true,
+}
+
+
+android_app_import {
+	name: "WellbeingPrebuilt",
+	apk: "system/priv-app/WellbeingPrebuilt/WellbeingPrebuilt.apk",
+	privileged: true,
+    presigned: true,
+}
+
+android_app_import {
+	name: "GooglePackageInstaller",
+	apk: "system/priv-app/GooglePackageInstaller/GooglePackageInstaller.apk",
+	privileged: true,
+    presigned: true,
+    overrides: ["PackageInstaller"],
+}
+
+android_app_import {
+	name: "GoogleCalendarSyncAdapter",
+	apk: "system/app/GoogleCalendarSyncAdapter/GoogleCalendarSyncAdapter.apk",
+    presigned: true,
+}
+
+android_app_import {
+	name: "GoogleContactsSyncAdapter",
+	apk: "system/app/GoogleContactsSyncAdapter/GoogleContactsSyncAdapter.apk",
+    presigned: true,
+}
+
+android_app_import {
+	name: "GoogleExtShared",
+	apk: "system/app/GoogleExtShared/GoogleExtShared.apk",
+    presigned: true,
+}
+
+android_app_import {
+	name: "GoogleTTS",
+	apk: "system/app/GoogleTTS/GoogleTTS.apk",
+    presigned: true,
+}
+
+android_app_import {
+	name: "MarkupGoogle",
+	apk: "system/app/MarkupGoogle/MarkupGoogle.apk",
+    presigned: true,
+}
+
+android_app_import {
+	name: "Photos",
+	apk: "system/app/Photos/Photos.apk",
+    presigned: true,
+    overrides: ["Gallery2"],
+}
+
+android_app_import {
+	name: "SoundPickerPrebuilt",
+	apk: "system/app/SoundPickerPrebuilt/SoundPickerPrebuilt.apk",
+    presigned: true,
+}
